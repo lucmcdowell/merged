@@ -1,0 +1,26 @@
+{
+  "name": "ft-create-meetup-record",
+  "version": "1.0.0",
+  "description": "This feature is about creating a specific meetup record",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --reporter spec --exit"
+  },
+  "author": "James Azim Ouma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.9",
+    "nyc": "^13.1.0",
+    "request": "^2.88.0",
+    "supertest": "^3.3.0"
+  }
+}
